@@ -1,0 +1,27 @@
+# === Secrets / credentials ===
+.env
+*.session
+*.session-journal
+
+# === Telegram / runtime data ===
+placement.db
+placement.db-shm
+placement.db-wal
+raw_messages.json
+raw_messages.txt
+offers.json
+seen.json
+applied.json
+state.json
+llm_cache.json
+scan.log
+
+# === Generated output ===
+placement_offers*.xlsx
+test_*.xlsx
+
+# === Python ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
